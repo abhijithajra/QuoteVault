@@ -1,0 +1,43 @@
+name: quotevault
+description: "A Quotes App built with Flutter + Supabase"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # Supabase backend
+  supabase_flutter: ^2.3.4
+
+  # UI / Fonts
+  google_fonts: ^6.1.0
+
+  # Widgets
+  home_widget: ^0.5.0
+
+  # Sharing & images
+  share_plus: ^7.2.1
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+
+  # Utilities
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
